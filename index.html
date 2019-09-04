@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link href="./index.css" rel="stylesheet" />
+    <title>Star Wars</title>
+  </head>
+  <body>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/320px-Star_Wars_Logo.svg.png"
+    />
+    <div class="btn">
+      <button onclick="results();">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        Do.Or do not.There is no try
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div id="result">
+      <p class="question">
+        Which of all StarWars movies has longest opening crawl
+      </p>
+      <p class="answer" id="one"></p>
+      <p class="question">
+        what character (person) appeared in the most of starWars films
+      </p>
+      <p class="answer" id="two"></p>
+
+      <p class="question">
+        which species appeared in the most number of starWars films
+      </p>
+      <p class="answer" id="three"></p>
+      <p class="question">
+        what planet in starWars universe provided largest number of vehicle
+        pilots.
+      </p>
+      <p class="answer" id="four"></p>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

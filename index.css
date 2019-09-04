@@ -1,0 +1,45 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: black;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.btn {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.btn button {
+  background: yellow;
+  width: 40%;
+  height: 75px;
+  font-size: 1.8rem;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 25px;
+  font-weight: 700;
+}
+.btn button:hover {
+  box-shadow: 5px 5px 10px 5px #888888;
+}
+#result {
+  text-align: center;
+}
+.question {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.answer {
+  margin: 10px;
+  padding: 10px;
+  color: yellow;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
